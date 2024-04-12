@@ -1,4 +1,4 @@
-section{
+.whole-testi{
     background-color: black;
   
 }
@@ -10,7 +10,9 @@ section{
     color:var(--primary-color);
     padding-left: 0.3rem;
 }
-
+.whole-testi{
+    padding:10vh 3vw;
+}
 .img-test{
     text-align: end;
     align-content: center;
@@ -26,6 +28,7 @@ section{
 .testimonial-main{
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
 .test-para
 {
     color: white;
